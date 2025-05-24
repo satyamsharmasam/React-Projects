@@ -4,6 +4,7 @@ import mist from '../assets/mist.png';
 import cloud from '../assets/cloud.png';
 import rain from '../assets/rain.png';
 import snow from '../assets/snow.png';
+import haze from '../assets/haze.png';
 
 const Images = () => {
   const state = useSelector((state) => state.weather);
