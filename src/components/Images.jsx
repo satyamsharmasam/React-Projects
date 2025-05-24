@@ -20,7 +20,7 @@ const Images = () => {
       imageSrc = cloud;
       break;
     case 'Haze':
-      imageSrc = cloud;
+      imageSrc = haze;
       break;
     case 'Rain':
       imageSrc = rain;
