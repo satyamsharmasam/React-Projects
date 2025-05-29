@@ -1,9 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWeather } from './redux/slice/weather';
 import { useState } from 'react';
-import { Loader, Notfound } from './components';
+import { Loader, Notfound, Images } from './components';
 import './App.css';
-import Images from './components/Images';
 
 function App() {
   const dispatch = useDispatch();
